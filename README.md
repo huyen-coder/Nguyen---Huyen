@@ -15,7 +15,7 @@
 
         /* HEADER */
         header {
-            background: #0a3d62;
+            background: linear-gradient(135deg, #0a3d62, #3498db);
             color: white;
             padding: 30px 20px;
             display: flex;
@@ -23,11 +23,12 @@
         }
 
         header img {
-            width: 90px;
-            height: 90px;
+            width: 95px;
+            height: 95px;
             border-radius: 50%;
             margin-right: 20px;
             border: 3px solid white;
+            object-fit: cover;
         }
 
         header .info h1 {
@@ -40,25 +41,27 @@
             font-size: 14px;
         }
 
-        /* SECTION */
+        /* CONTAINER */
         .container {
             max-width: 1000px;
-            margin: 20px auto;
+            margin: 25px auto;
             padding: 0 20px;
         }
 
+        /* SECTION */
         section {
             background: white;
-            padding: 20px;
+            padding: 22px;
             margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.05);
         }
 
         h2 {
             color: #0a3d62;
             border-left: 5px solid #3498db;
             padding-left: 10px;
+            margin-bottom: 15px;
         }
 
         ul {
@@ -79,9 +82,10 @@
         /* FOOTER */
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 18px;
             background: #0a3d62;
             color: white;
+            margin-top: 30px;
         }
 
         /* RESPONSIVE */
@@ -108,22 +112,24 @@
     <img src="huyen.jpg" alt="Huyền">
     <div class="info">
         <h1>Nguyễn Thị Huyền</h1>
-        <p>Cộng tác viên tuyển dụng (Part-time)</p>
-        <p>📞 0965478835 | ✉ nguyenhuyen06112005cbg@gmail.com</p>
+        <p>📞 0965478835</p>
+        <p>✉ nguyenhuyen06112005cbg@gmail.com</p>
         <p>📍 Đống Đa, Hà Nội</p>
     </div>
 </header>
 
 <div class="container">
 
+    <!-- GIỚI THIỆU -->
     <section>
-        <h2>Mục tiêu nghề nghiệp</h2>
+        <h2>Giới thiệu</h2>
         <p>
-            Với tinh thần cầu tiến, học hỏi và khả năng giao tiếp tốt, tôi mong muốn bắt đầu sự nghiệp trong lĩnh vực nhân sự, đặc biệt là tuyển dụng.
-            Mục tiêu ngắn hạn là tích lũy kinh nghiệm thực tế, và mục tiêu dài hạn là trở thành nhân viên nhân sự chuyên nghiệp.
+            Tôi có tinh thần trách nhiệm cao, khả năng học hỏi nhanh và làm việc nhóm tốt,
+            mong muốn tìm kiếm cơ hội thực tập để phát triển bản thân và đóng góp cho doanh nghiệp.
         </p>
     </section>
 
+    <!-- GRID 1 -->
     <div class="grid">
 
         <section>
@@ -145,6 +151,7 @@
 
     </div>
 
+    <!-- KINH NGHIỆM -->
     <section>
         <h2>Kinh nghiệm làm việc</h2>
         <p><strong>Trung tâm gia sư Sư phạm (2023 - Nay)</strong></p>
@@ -153,6 +160,7 @@
         </ul>
     </section>
 
+    <!-- GRID 2 -->
     <div class="grid">
 
         <section>

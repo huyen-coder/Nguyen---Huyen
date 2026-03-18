@@ -149,8 +149,9 @@ ul {
 <div class="card">
     <h2>Liên hệ</h2>
     <div class="contact">
-        <a href="mailto:k62.2311720018@ftu.edu.vn">Email</a>
-    </div>
+      <p>📧 <a href="mailto:k62.2311720018@ftu.edu.vn">
+k62.2311720018@ftu.edu.vn
+</a></p>
 </div>
 
 </body>

@@ -93,7 +93,9 @@ ul {
 
 <header>
     <div class="header-container">
-        <img src="avatar.jpg" class="avatar">
+        <!-- ẢNH CỦA BẠN -->
+        <img src="Huyền.jpg" class="avatar">
+
         <div class="info">
             <h1>Nguyễn Thị Huyền</h1>
             <p>Business Chinese • Foreign Trade University</p>
@@ -122,18 +124,9 @@ ul {
 <div class="card">
     <h2>Kinh nghiệm</h2>
 
-    <p><b>Thực tập sinh – Viện Nghiên cứu Nam Ninh</b> (06/2025 – 07/2025)</p>
+    <p><b>Gia sư Toán THPT</b> (11/2022 – nay)</p>
     <ul>
-        <li>Hỗ trợ sắp xếp và lưu trữ tài liệu</li>
-        <li>Phụ giúp chuẩn bị hội thảo, sự kiện</li>
-        <li>Có cơ hội giao tiếp với giảng viên và sinh viên Trung Quốc</li>
-    </ul>
-
-    <br>
-
-    <p><b>Gia sư Toán THPT</b> (11/2022 – 05/2023)</p>
-    <ul>
-        <li>Giúp học sinh nâng điểm Toán từ 5 → 8</li>
+        <li>Giúp học sinh nâng điểm Toán từ 5 → 9</li>
         <li>Rèn kỹ năng giảng dạy và quản lý thời gian</li>
     </ul>
 </div>
@@ -157,8 +150,6 @@ ul {
     <h2>Liên hệ</h2>
     <div class="contact">
         <a href="mailto:k62.2311720018@ftu.edu.vn">Email</a>
-        <a href="#">Facebook</a>
-        <a href="#">LinkedIn</a>
     </div>
 </div>
 

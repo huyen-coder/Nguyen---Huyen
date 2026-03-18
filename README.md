@@ -127,15 +127,6 @@ ul {
 <div class="card">
     <h2>Kinh nghiệm</h2>
 
-    <p><b>Thực tập sinh – Viện Nghiên cứu Nam Ninh</b> (06/2025 – 07/2025)</p>
-    <ul>
-        <li>Hỗ trợ sắp xếp và lưu trữ tài liệu</li>
-        <li>Phụ giúp chuẩn bị hội thảo, sự kiện</li>
-        <li>Giao tiếp cơ bản với sinh viên và giảng viên Trung Quốc</li>
-    </ul>
-
-    <br>
-
     <p><b>Gia sư Toán THPT</b> (11/2022 – 05/2023)</p>
     <ul>
         <li>Nâng điểm Toán từ 5 → 8</li>

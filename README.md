@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Nguyễn Thị Huyền Portfolio</title>
     <style>
-        body {
+        body { 
             font-family: Arial;
             margin: 0;
             background: #f5f5f5;

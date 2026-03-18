@@ -9,7 +9,7 @@
 <body>
 
 <header>
-  <h2>Huyền.</h2>
+  <h2>Huyen.</h2>
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
@@ -21,7 +21,7 @@
 </header>
 
 <section id="home" class="hero">
-  <h1>Hello, I'm Huyền</h1>
+  <h1>Hello, I'm Huyen</h1>
   <p>Creative • Aesthetic • Minimalist</p>
 </section>
 
@@ -52,7 +52,7 @@
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>Email: example@gmail.com</p>
+  <p>Email: nguyenhuyen06112005cbg@gmail.com</p>
 </section>
 
 </body>

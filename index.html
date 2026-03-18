@@ -1,172 +1,185 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<title>Nguyễn Thị Huyền Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Nguyễn Thị Huyền - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f8fb;
+            color: #333;
+        }
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+        /* HEADER */
+        header {
+            background: #0a3d62;
+            color: white;
+            padding: 30px 20px;
+            display: flex;
+            align-items: center;
+        }
 
-body {
-    background: #f4f9ff;
-}
+        header img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 3px solid white;
+        }
 
-/* HEADER */
-header {
-    background: linear-gradient(135deg, #cfe9ff, #eaf6ff);
-    padding: 40px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
+        header .info h1 {
+            margin: 0;
+            font-size: 28px;
+        }
 
-.header-container {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    flex-wrap: wrap;
-}
+        header .info p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
 
-.avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid white;
-}
+        /* SECTION */
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
 
-.info h1 {
-    font-size: 32px;
-    color: #1e3a5f;
-}
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
 
-.info p {
-    margin-top: 5px;
-    color: #3b5d7a;
-}
+        h2 {
+            color: #0a3d62;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
 
-/* CARD */
-.card {
-    background: white;
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
+        ul {
+            padding-left: 20px;
+        }
 
-.card h2 {
-    margin-bottom: 15px;
-    color: #1e3a5f;
-}
+        li {
+            margin-bottom: 8px;
+        }
 
-/* LIST */
-ul {
-    padding-left: 20px;
-}
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
 
-/* SKILL TAG */
-.tags span {
-    display: inline-block;
-    background: #dbeeff;
-    padding: 8px 15px;
-    border-radius: 20px;
-    margin: 5px;
-    font-size: 14px;
-    color: #1e3a5f;
-}
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0a3d62;
+            color: white;
+        }
 
-/* CONTACT */
-.contact a {
-    color: #1a73e8;
-    text-decoration: none;
-}
+        /* RESPONSIVE */
+        @media(max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
 
-.contact a:hover {
-    text-decoration: underline;
-}
-</style>
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
 <header>
-    <div class="header-container">
-        <!-- ẢNH (đổi tên file thành huyen.jpg nhé) -->
-        <img src="huyen.jpg" class="avatar">
-
-        <div class="info">
-            <h1>Nguyễn Thị Huyền</h1>
-            <p>Business Chinese • Foreign Trade University</p>
-            <p>📍 Hà Nội | 📧 k62.2311720018@ftu.edu.vn</p>
-        </div>
+    <img src="huyen.jpg" alt="Huyền">
+    <div class="info">
+        <h1>Nguyễn Thị Huyền</h1>
+        <p>Cộng tác viên tuyển dụng (Part-time)</p>
+        <p>📞 0965478835 | ✉ nguyenhuyen06112005cbg@gmail.com</p>
+        <p>📍 Đống Đa, Hà Nội</p>
     </div>
 </header>
 
-<div class="card">
-    <h2>Giới thiệu</h2>
-    <p>
-        Mình là sinh viên Đại học Ngoại thương, chuyên ngành Tiếng Trung thương mại.
-        Mình học khá chăm chỉ, có trách nhiệm trong công việc và luôn cố gắng hoàn thành tốt nhiệm vụ.
-        Hiện tại mình đang tìm cơ hội thực tập để tích lũy thêm kinh nghiệm thực tế.
-    </p>
-</div>
+<div class="container">
 
-<div class="card">
-    <h2>Học vấn</h2>
-    <p><b>Đại học Ngoại thương</b> (10/2023 – nay)</p>
-    <p>Chuyên ngành: Tiếng Trung Thương mại</p>
-</div>
+    <section>
+        <h2>Mục tiêu nghề nghiệp</h2>
+        <p>
+            Với tinh thần cầu tiến, học hỏi và khả năng giao tiếp tốt, tôi mong muốn bắt đầu sự nghiệp trong lĩnh vực nhân sự, đặc biệt là tuyển dụng.
+            Mục tiêu ngắn hạn là tích lũy kinh nghiệm thực tế, và mục tiêu dài hạn là trở thành nhân viên nhân sự chuyên nghiệp.
+        </p>
+    </section>
 
-<div class="card">
-    <h2>Kinh nghiệm</h2>
+    <div class="grid">
 
-    <p><b>Gia sư Toán THPT</b> (11/2022 – 05/2023)</p>
-    <ul>
-        <li>Nâng điểm Toán từ 5 → 8</li>
-        <li>Rèn kỹ năng giảng dạy & quản lý thời gian</li>
-    </ul>
-</div>
+        <section>
+            <h2>Học vấn</h2>
+            <p><strong>Đại học Ngoại Thương (2023 - 2027)</strong></p>
+            <p>Ngôn ngữ Trung Quốc</p>
+            <p>Chuyên ngành Tiếng Trung Thương Mại</p>
+        </section>
 
-<div class="card">
-    <h2>Kỹ năng</h2>
-    <div class="tags">
-        <span>Tiếng Trung</span>
-        <span>Tiếng Anh</span>
-        <span>Word</span>
-        <span>Excel</span>
-        <span>PowerPoint</span>
-        <span>Làm việc nhóm</span>
+        <section>
+            <h2>Kỹ năng</h2>
+            <ul>
+                <li>Tin học văn phòng</li>
+                <li>Làm việc nhóm, tổ chức sự kiện</li>
+                <li>Kỹ năng giao tiếp, xử lý tình huống</li>
+                <li>Research & xử lý thông tin</li>
+            </ul>
+        </section>
+
     </div>
-</div>
 
-<div class="card">
-    <h2>Liên hệ</h2>
-    <div class="contact">
-        <p>
-            <b>Email:</b> 
-            <a href="mailto:k62.2311720018@ftu.edu.vn">
-                k62.2311720018@ftu.edu.vn
-            </a>
-        </p>
+    <section>
+        <h2>Kinh nghiệm làm việc</h2>
+        <p><strong>Trung tâm gia sư Sư phạm (2023 - Nay)</strong></p>
+        <ul>
+            <li>Gia sư Toán, Văn, Anh cấp THCS, THPT</li>
+        </ul>
+    </section>
 
-        <p>
-            <b>Facebook:</b> 
-            <a href="#">Facebook</a>
-        </p>
+    <div class="grid">
 
-        <p>
-            <b>LinkedIn:</b> 
-            <a href="#">LinkedIn</a>
-        </p>
+        <section>
+            <h2>Chứng chỉ</h2>
+            <ul>
+                <li>MOS (2024)</li>
+                <li>HSK 4 (2025)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hoạt động</h2>
+            <p><strong>CLB REC FTU (10/2023 - 7/2024)</strong></p>
+            <ul>
+                <li>Tìm kiếm tài trợ cho sự kiện</li>
+                <li>Viết email marketing, hồ sơ tài trợ</li>
+                <li>Đàm phán với đối tác</li>
+            </ul>
+        </section>
+
     </div>
+
 </div>
+
+<footer>
+    © 2026 Nguyễn Thị Huyền | Portfolio
+</footer>
 
 </body>
 </html>

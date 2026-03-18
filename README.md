@@ -1,81 +1,166 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Nguyễn Thị Huyền Portfolio</title>
-    <style>
-        body { 
-            font-family: Arial;
-            margin: 0;
-            background: #f5f5f5;
-        }
-        header {
-            background: #111;
-            color: white;
-            padding: 40px;
-            text-align: center;
-        }
-        section {
-            padding: 30px;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            margin-top: 20px;
-            border-radius: 10px;
-        }
-        h2 {
-            color: #333;
-        }
-        .contact a {
-            display: block;
-            margin: 5px 0;
-            color: #0077cc;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Nguyễn Thị Huyền Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #a1c4fd, #fbc2eb);
+    padding: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.info h1 {
+    font-size: 34px;
+}
+
+.info p {
+    margin-top: 5px;
+    color: #333;
+}
+
+/* CARD */
+.card {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* SKILL TAG */
+.tags span {
+    display: inline-block;
+    background: #e0ecff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* CONTACT */
+.contact a {
+    display: block;
+    margin-top: 5px;
+    color: #0077cc;
+    text-decoration: none;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>Nguyễn Thị Huyền</h1>
-    <p>FTU Student | Chinese Business Major</p>
+    <div class="header-container">
+        <img src="avatar.jpg" class="avatar">
+        <div class="info">
+            <h1>Nguyễn Thị Huyền</h1>
+            <p>Business Chinese • Foreign Trade University</p>
+            <p>📍 Hà Nội | 📧 k62.2311720018@ftu.edu.vn</p>
+            <p><i>今天的努力，是为了明天更好的自己</i></p>
+        </div>
+    </div>
 </header>
 
-<section>
-    <h2>👩‍🎓 About Me</h2>
+<div class="card">
+    <h2>Giới thiệu</h2>
     <p>
-        Xin chào! Mình là Huyền, sinh viên Đại học Ngoại thương, chuyên ngành Tiếng Trung thương mại.
-        Mình quan tâm đến kinh doanh, marketing và content creation.
+        Mình là sinh viên Đại học Ngoại thương, chuyên ngành Tiếng Trung thương mại.
+        Mình có khả năng học nhanh, làm việc nhóm ổn và khá cẩn thận trong công việc.
+        Hiện tại mình đang tìm cơ hội thực tập để học hỏi thêm kinh nghiệm thực tế.
     </p>
-</section>
+</div>
 
-<section>
-    <h2>💼 Skills</h2>
+<div class="card">
+    <h2>Học vấn</h2>
+    <p><b>Đại học Ngoại thương</b> (10/2023 – nay)</p>
+    <p>Chuyên ngành: Tiếng Trung Thương mại</p>
+    <p>Định hướng phát triển trong lĩnh vực kinh doanh quốc tế</p>
+</div>
+
+<div class="card">
+    <h2>Kinh nghiệm</h2>
+
+    <p><b>Thực tập sinh – Viện Nghiên cứu Nam Ninh</b> (06/2025 – 07/2025)</p>
     <ul>
-        <li>Chinese (HSK / Business Chinese)</li>
-        <li>Content Writing</li>
-        <li>Marketing & Branding</li>
-        <li>Basic HTML/CSS</li>
+        <li>Hỗ trợ sắp xếp và lưu trữ tài liệu</li>
+        <li>Phụ giúp chuẩn bị hội thảo, sự kiện</li>
+        <li>Có cơ hội giao tiếp với giảng viên và sinh viên Trung Quốc</li>
     </ul>
-</section>
 
-<section>
-    <h2>📚 Projects</h2>
+    <br>
+
+    <p><b>Gia sư Toán THPT</b> (11/2022 – 05/2023)</p>
     <ul>
-        <li>Website ăn uống (idea startup)</li>
-        <li>Phân tích hành vi tiêu dùng sinh viên</li>
-        <li>Content booking cho eUp</li>
+        <li>Giúp học sinh nâng điểm Toán từ 5 → 8</li>
+        <li>Rèn kỹ năng giảng dạy và quản lý thời gian</li>
     </ul>
-</section>
+</div>
 
-<section>
-    <h2>📞 Contact</h2>
+<div class="card">
+    <h2>Hoạt động & Kỹ năng</h2>
+    <p>Vòng chung kết “Cuộc thi viết chữ Hán đẹp” 2023 – FTU</p>
+
+    <div class="tags">
+        <span>Tiếng Trung tốt</span>
+        <span>Tiếng Anh khá</span>
+        <span>Word</span>
+        <span>Excel</span>
+        <span>PowerPoint</span>
+        <span>Làm việc nhóm</span>
+        <span>Quản lý thời gian</span>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Liên hệ</h2>
     <div class="contact">
-        <a href="#">Email: your-email@gmail.com</a>
+        <a href="mailto:k62.2311720018@ftu.edu.vn">Email</a>
         <a href="#">Facebook</a>
         <a href="#">LinkedIn</a>
     </div>
-</section>
+</div>
 
 </body>
 </html>

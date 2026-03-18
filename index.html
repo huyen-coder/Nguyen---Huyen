@@ -1,222 +1,81 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nguyễn Thị Huyền - Portfolio</title>
-
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-    scroll-behavior: smooth;
-}
-
-body {
-    background: #f5efe6;
-    color: #333;
-}
-
-/* NAVBAR */
-nav {
-    position: fixed;
-    width: 100%;
-    background: white;
-    padding: 15px 40px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    z-index: 1000;
-}
-
-nav h2 {
-    color: #7b1e1e;
-}
-
-nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-}
-
-nav a:hover {
-    color: #a93226;
-}
-
-/* HERO */
-.hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(135deg, #7b1e1e, #a93226);
-    color: white;
-}
-
-.hero img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: 4px solid white;
-    margin-bottom: 20px;
-}
-
-.hero h1 {
-    font-size: 32px;
-}
-
-.hero p {
-    margin-top: 10px;
-}
-
-/* SECTION */
-section {
-    padding: 80px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-h2 {
-    color: #7b1e1e;
-    margin-bottom: 20px;
-    border-left: 5px solid #a93226;
-    padding-left: 10px;
-}
-
-/* CARD */
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-/* SKILL */
-.bar {
-    height: 8px;
-    background: #ddd;
-    border-radius: 10px;
-    margin-top: 5px;
-}
-
-.bar div {
-    height: 100%;
-    background: #a93226;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #7b1e1e;
-    color: white;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Portfolio - Huyền</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- NAV -->
-<nav>
-    <h2>Huyền</h2>
-    <div>
-        <a href="#about">Giới thiệu</a>
-        <a href="#education">Học vấn</a>
-        <a href="#skills">Kỹ năng</a>
-        <a href="#experience">Kinh nghiệm</a>
-        <a href="#activity">Hoạt động</a>
-    </div>
-</nav>
+<!-- NAVBAR -->
+<header>
+  <h2>Huyền.</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#cinema">Cinema</a>
+    <a href="#music">Music</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
 <!-- HERO -->
-<div class="hero">
-    <div>
-        <img src="huyen.jpg">
-        <h1>Nguyễn Thị Huyền</h1>
-        <p>📞 0965478835 | ✉ nguyenhuyen06112005cbg@gmail.com</p>
-        <p>Đống Đa, Hà Nội</p>
-    </div>
-</div>
+<section id="home" class="hero">
+  <h1>Hello, I'm Huyền</h1>
+  <p>Creative • Aesthetic • Minimalist</p>
+</section>
 
 <!-- ABOUT -->
-<section id="about">
-    <h2>Giới thiệu</h2>
-    <div class="card">
-        Tôi có tinh thần trách nhiệm cao, khả năng học hỏi nhanh và làm việc nhóm tốt,
-        mong muốn tìm kiếm cơ hội thực tập để phát triển bản thân và đóng góp cho doanh nghiệp.
-    </div>
+<section id="about" class="about">
+  <div class="about-img">
+    <img src="anh1.jpg">
+  </div>
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      Mình thích những thứ nhẹ nhàng, tinh tế và mang vibe nghệ thuật.
+      Portfolio này thể hiện một phần cá tính và gu thẩm mỹ của mình ✨
+    </p>
+  </div>
 </section>
 
-<!-- EDUCATION -->
-<section id="education">
-    <h2>Học vấn</h2>
-    <div class="card">
-        <strong>Đại học Ngoại Thương (2023 - 2027)</strong><br>
-        Ngôn ngữ Trung Quốc<br>
-        Tiếng Trung Thương Mại
-    </div>
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+  <h2>Gallery</h2>
+  <div class="grid">
+    <img src="anh1.jpg">
+    <img src="anh2.jpg">
+  </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills">
-    <h2>Kỹ năng</h2>
-
-    <div class="card">
-        Tin học văn phòng
-        <div class="bar"><div style="width:90%"></div></div>
-    </div>
-
-    <div class="card">
-        Giao tiếp
-        <div class="bar"><div style="width:88%"></div></div>
-    </div>
-
-    <div class="card">
-        Làm việc nhóm
-        <div class="bar"><div style="width:85%"></div></div>
-    </div>
-
-    <div class="card">
-        Research
-        <div class="bar"><div style="width:80%"></div></div>
-    </div>
-
+<!-- CINEMA -->
+<section id="cinema" class="cinema">
+  <h2>Cinema 🎬</h2>
+  <div class="card">
+    <h3>Detective Conan</h3>
+    <p>Anime yêu thích với những vụ án hack não 🧠</p>
+  </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-    <h2>Kinh nghiệm</h2>
-    <div class="card">
-        <strong>Trung tâm gia sư Sư phạm (2023 - Nay)</strong><br>
-        Gia sư Toán, Văn, Anh THCS, THPT
+<!-- MUSIC -->
+<section id="music" class="music">
+  <h2>Music 🎧</h2>
+  <div class="music-card">
+    <img src="amnhac.png">
+    <div>
+      <h3>Ruby - Jennie</h3>
+      <p>Album yêu thích gần đây ❤️</p>
     </div>
+  </div>
 </section>
 
-<!-- ACTIVITY -->
-<section id="activity">
-    <h2>Hoạt động</h2>
-    <div class="card">
-        <strong>Ban Đối Ngoại - CLB REC FTU</strong><br>
-        10/2023 - 7/2024<br><br>
-        - Tìm kiếm nhà tài trợ<br>
-        - Viết email marketing<br>
-        - Đàm phán với đối tác
-    </div>
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Email: example@gmail.com</p>
 </section>
 
-<footer>
-    © 2026 Nguyễn Thị Huyền
-</footer>
-
+<script src="script.js"></script>
 </body>
 </html>

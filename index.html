@@ -149,13 +149,22 @@ ul {
 <div class="card">
     <h2>Liên hệ</h2>
     <div class="contact">
-        <p>📧 
+        <p>
+            <b>Email:</b> 
             <a href="mailto:k62.2311720018@ftu.edu.vn">
                 k62.2311720018@ftu.edu.vn
             </a>
         </p>
-        <p><a href="#">Facebook</a></p>
-        <p><a href="#">LinkedIn</a></p>
+
+        <p>
+            <b>Facebook:</b> 
+            <a href="#">Facebook</a>
+        </p>
+
+        <p>
+            <b>LinkedIn:</b> 
+            <a href="#">LinkedIn</a>
+        </p>
     </div>
 </div>
 

@@ -15,12 +15,12 @@
 }
 
 body {
-    background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+    background: #f4f9ff;
 }
 
 /* HEADER */
 header {
-    background: linear-gradient(135deg, #a1c4fd, #fbc2eb);
+    background: linear-gradient(135deg, #cfe9ff, #eaf6ff);
     padding: 40px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -29,7 +29,7 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
     flex-wrap: wrap;
 }
 
@@ -42,12 +42,13 @@ header {
 }
 
 .info h1 {
-    font-size: 34px;
+    font-size: 32px;
+    color: #1e3a5f;
 }
 
 .info p {
     margin-top: 5px;
-    color: #333;
+    color: #3b5d7a;
 }
 
 /* CARD */
@@ -57,11 +58,12 @@ header {
     margin: 30px auto;
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 .card h2 {
     margin-bottom: 15px;
+    color: #1e3a5f;
 }
 
 /* LIST */
@@ -72,19 +74,22 @@ ul {
 /* SKILL TAG */
 .tags span {
     display: inline-block;
-    background: #e0ecff;
+    background: #dbeeff;
     padding: 8px 15px;
     border-radius: 20px;
     margin: 5px;
     font-size: 14px;
+    color: #1e3a5f;
 }
 
 /* CONTACT */
 .contact a {
-    display: block;
-    margin-top: 5px;
-    color: #0077cc;
+    color: #1a73e8;
     text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 </style>
 </head>
@@ -93,8 +98,8 @@ ul {
 
 <header>
     <div class="header-container">
-        <!-- ẢNH CỦA BẠN -->
-        <img src="Huyền.jpg" class="avatar">
+        <!-- ẢNH (đổi tên file thành huyen.jpg nhé) -->
+        <img src="huyen.jpg" class="avatar">
 
         <div class="info">
             <h1>Nguyễn Thị Huyền</h1>
@@ -109,8 +114,8 @@ ul {
     <h2>Giới thiệu</h2>
     <p>
         Mình là sinh viên Đại học Ngoại thương, chuyên ngành Tiếng Trung thương mại.
-        Mình có khả năng học nhanh, làm việc nhóm ổn và khá cẩn thận trong công việc.
-        Hiện tại mình đang tìm cơ hội thực tập để học hỏi thêm kinh nghiệm thực tế.
+        Mình học khá chăm chỉ, có trách nhiệm trong công việc và luôn cố gắng hoàn thành tốt nhiệm vụ.
+        Hiện tại mình đang tìm cơ hội thực tập để tích lũy thêm kinh nghiệm thực tế.
     </p>
 </div>
 
@@ -118,40 +123,50 @@ ul {
     <h2>Học vấn</h2>
     <p><b>Đại học Ngoại thương</b> (10/2023 – nay)</p>
     <p>Chuyên ngành: Tiếng Trung Thương mại</p>
-    <p>Định hướng phát triển trong lĩnh vực kinh doanh quốc tế</p>
 </div>
 
 <div class="card">
     <h2>Kinh nghiệm</h2>
 
-    <p><b>Gia sư Toán THPT</b> (11/2022 – nay)</p>
+    <p><b>Thực tập sinh – Viện Nghiên cứu Nam Ninh</b> (06/2025 – 07/2025)</p>
     <ul>
-        <li>Giúp học sinh nâng điểm Toán từ 5 → 9</li>
-        <li>Rèn kỹ năng giảng dạy và quản lý thời gian</li>
+        <li>Hỗ trợ sắp xếp và lưu trữ tài liệu</li>
+        <li>Phụ giúp chuẩn bị hội thảo, sự kiện</li>
+        <li>Giao tiếp cơ bản với sinh viên và giảng viên Trung Quốc</li>
+    </ul>
+
+    <br>
+
+    <p><b>Gia sư Toán THPT</b> (11/2022 – 05/2023)</p>
+    <ul>
+        <li>Nâng điểm Toán từ 5 → 8</li>
+        <li>Rèn kỹ năng giảng dạy & quản lý thời gian</li>
     </ul>
 </div>
 
 <div class="card">
-    <h2>Hoạt động & Kỹ năng</h2>
-    <p>Vòng chung kết “Cuộc thi viết chữ Hán đẹp” 2023 – FTU</p>
-
+    <h2>Kỹ năng</h2>
     <div class="tags">
-        <span>Tiếng Trung tốt</span>
-        <span>Tiếng Anh khá</span>
+        <span>Tiếng Trung</span>
+        <span>Tiếng Anh</span>
         <span>Word</span>
         <span>Excel</span>
         <span>PowerPoint</span>
         <span>Làm việc nhóm</span>
-        <span>Quản lý thời gian</span>
     </div>
 </div>
 
 <div class="card">
     <h2>Liên hệ</h2>
     <div class="contact">
-      <p>📧 <a href="mailto:k62.2311720018@ftu.edu.vn">
-k62.2311720018@ftu.edu.vn
-</a></p>
+        <p>📧 
+            <a href="mailto:k62.2311720018@ftu.edu.vn">
+                k62.2311720018@ftu.edu.vn
+            </a>
+        </p>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">LinkedIn</a></p>
+    </div>
 </div>
 
 </body>

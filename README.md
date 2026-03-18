@@ -105,7 +105,6 @@ ul {
             <h1>Nguyễn Thị Huyền</h1>
             <p>Business Chinese • Foreign Trade University</p>
             <p>📍 Hà Nội | 📧 k62.2311720018@ftu.edu.vn</p>
-            <p><i>今天的努力，是为了明天更好的自己</i></p>
         </div>
     </div>
 </header>

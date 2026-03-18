@@ -14,7 +14,7 @@
         }
 
         body {
-            background: linear-gradient(135deg, #eef5ff, #d9e8ff);
+            background: #f5efe6; /* màu nước gạo */
             color: #333;
         }
 
@@ -26,21 +26,21 @@
             gap: 25px;
         }
 
-        /* LEFT PANEL */
+        /* LEFT */
         .left {
-            background: linear-gradient(180deg, #0a3d62, #3498db);
+            background: linear-gradient(180deg, #7b1e1e, #a93226);
             color: white;
             padding: 25px;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
 
         .left img {
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            border: 4px solid white;
+            border: 4px solid #f5efe6;
             margin-bottom: 15px;
             object-fit: cover;
         }
@@ -55,7 +55,7 @@
             margin: 6px 0;
         }
 
-        /* RIGHT PANEL */
+        /* RIGHT */
         .right {
             display: flex;
             flex-direction: column;
@@ -75,19 +75,15 @@
         }
 
         h2 {
-            color: #0a3d62;
+            color: #7b1e1e;
             margin-bottom: 15px;
-            border-left: 5px solid #3498db;
+            border-left: 5px solid #a93226;
             padding-left: 10px;
         }
 
-        /* SKILL BAR */
+        /* SKILL */
         .skill {
             margin-bottom: 12px;
-        }
-
-        .skill span {
-            font-size: 14px;
         }
 
         .bar {
@@ -100,12 +96,12 @@
 
         .bar div {
             height: 100%;
-            background: #3498db;
+            background: #a93226;
         }
 
         /* TIMELINE */
         .timeline {
-            border-left: 3px solid #3498db;
+            border-left: 3px solid #a93226;
             padding-left: 15px;
         }
 
@@ -114,7 +110,7 @@
         }
 
         .timeline-item h4 {
-            color: #0a3d62;
+            color: #7b1e1e;
         }
 
         /* RESPONSIVE */
@@ -162,22 +158,22 @@
             <h2>Kỹ năng</h2>
 
             <div class="skill">
-                <span>Tin học văn phòng</span>
+                Tin học văn phòng
                 <div class="bar"><div style="width:90%"></div></div>
             </div>
 
             <div class="skill">
-                <span>Làm việc nhóm</span>
+                Làm việc nhóm
                 <div class="bar"><div style="width:85%"></div></div>
             </div>
 
             <div class="skill">
-                <span>Giao tiếp</span>
+                Giao tiếp
                 <div class="bar"><div style="width:88%"></div></div>
             </div>
 
             <div class="skill">
-                <span>Research</span>
+                Research
                 <div class="bar"><div style="width:80%"></div></div>
             </div>
 
@@ -199,8 +195,11 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <h4>10/2023 - 7/2024</h4>
-                    <p><strong>CLB REC FTU</strong></p>
-                    <p>Tìm kiếm tài trợ, viết email marketing, đàm phán đối tác</p>
+                    <p><strong>Ban Đối Ngoại - CLB REC FTU</strong></p>
+                    <p>
+                        Tìm kiếm nhà tài trợ, viết email marketing, chuẩn bị hồ sơ tài trợ,
+                        giao tiếp và đàm phán với đối tác.
+                    </p>
                 </div>
             </div>
         </div>
